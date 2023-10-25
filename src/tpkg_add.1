@@ -1,0 +1,33 @@
+.Dd $Mdocdate$
+.Dt TPKG_ADD 1
+.Os
+.Sh NAME
+.Nm tpkg_add
+.Nd install or update software packages
+.Sh SYNOPSIS
+.Nm tpkg_add
+.Bk -words
+.Op Fl options
+.Op Ar pkg-name ...
+.Ek
+.Sh DESCRIPTION
+The
+.Nm
+command is used to install or update
+.Xr packages 7
+.Sh FILES
+.Bl -tag -width /var/db/pkg/
+.It Pa /var/db/pkg/
+database of installed
+.Xr packages 7
+.El
+.Sh EXIT STATUS
+.Ex -std tpkg_add
+.Sh EXAMPLES
+.Sh DIAGNOSTICS
+.Sh ERRORS
+.Sh SEE ALSO
+.Xr tpkg_rm 1
+.Sh AUTHORS
+.An d0p1 Aq Mt contact@d0p1.eu
+
