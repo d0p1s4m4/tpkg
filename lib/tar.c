@@ -5,7 +5,7 @@
 #include "tar.h"
 
 int
-tar_extract(const char name, const char sysroot)
+tar_extract(const char *name, const char sysroot)
 {
   FILE *fp;
 

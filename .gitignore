@@ -8,3 +8,12 @@ config.h
 stamp-h1
 *.cache
 .deps
+configure
+depcomp
+install-sh
+missing
+ar-lib
+compile
+aclocal.m4
+*.a
+*.exe

@@ -34,6 +34,6 @@ typedef struct
   uint8_t pad[12];
 } TarHdr;
 
-int tar_extract(const char name, const char sysroot);
+int tar_extract(const char *name, const char sysroot);
 
 #endif /* TPKG_TAR_H */
